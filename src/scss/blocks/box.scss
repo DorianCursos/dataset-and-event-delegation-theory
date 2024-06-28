@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 1rem;
+  color: #333;
+  background-color: orange;
+  font-size: 2rem;
+
+  &--special {
+    color: aliceblue;
+    height: 50px;
+    background-color: purple;
+  }
+}
